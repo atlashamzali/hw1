@@ -24,7 +24,7 @@ label.logo{
   color: white;
   font-size: 20px;
   line-height: 80px;
-  /* padding: 0 10px; */
+  padding: 0 10px;
   font-weight: bold;
 }
 nav ul{
@@ -32,9 +32,11 @@ nav ul{
   margin-right: 10px;
 }
 nav ul li{
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
+  margin: 3;
+  padding: 0px 5px;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 20px;
 }
 nav ul li a{
   color: white;
