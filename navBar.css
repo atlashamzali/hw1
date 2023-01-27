@@ -146,23 +146,18 @@ font-family: 'Poppins', sans-serif;
 margin-left: 5%;
 margin-top: 3%;
 }
-img[alt="there were an image"]{
+img{
   border-radius: 25%;
   width: 200px;
   height: 200px;
-  margin-top: 100px;
-  margin-left: 5%;
+  display: block;
+ justify-content: center;
 }
-img:hover[alt="there were an image"]{
+img:hover{
   width: 250px;
   height: 250px;
 }
-.container {
-  display: flex;
-  align-items:center;
-  justify-content: flex-start;
- 
-}
+
 .text{
   display: flex;
   align-items: center;
@@ -412,7 +407,7 @@ img[alt="there were an image"]{
   .container {
     display: flex;
     align-items:center;
-    justify-content: flex-start;
+    justify-content: center;
    
   }
   .text{
